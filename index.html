@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Reg Page</title>
+</head>
+<body bgcolor="cyan">
+    <style>
+
+         body{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-position: center;
+            background-color: #ebc6ff;
+        } 
+        .contact-title{
+            margin-top: 100px;
+            color: purple;
+            text-transform: uppercase;
+            transition: all 4s ease-in-out;
+        }
+        .contact-title h1{
+            font-size: 32px;
+            line-height: 10px;
+        }
+        .contact-title h2{
+            font-size: 17px;
+        }
+        form{
+            margin-top: 50px;
+            transition: all 4s ease-in-out;
+        }
+        .form-control{
+            width: 600px;
+            border: none;
+            outline: none;
+            background: transparent;
+            margin: 17px;
+        }
+        </style>
+    <center>
+        
+        <div class="contact-title">
+            <h1>say hello</h1>
+            <h2>we are always ready to serve you</h2>
+
+        </div>
+        <div class="contact-form">
+            <form id="contact-form" method="post"action="enter.php">
+                <input type="email" name="email" class="form-control" id="email" placeholder="Enter your Email"> <br><br><br>
+                <input type="number" name="phone" class="form-control" id="phone" placeholder="Enter Your Phone Number" required> <br><br>
+                <label for="dob">Date of birth</label>
+                <input type="date" name="dob" id="dob" required><br><br><br>
+                <input type="submit" value="Submit"> <input type="reset" value="Reset">
+            </form>
+            
+
+        </div>
+    </center>
+    
+</body>
+</html>
